@@ -185,7 +185,7 @@ The following arguments are supported:
 
 - `dns_zone` - (Required) The DNS Zone of the domain. If the DNS zone doesn't exist, it will be automatically created.
 
-- `keep_empty_zone` - (Optional, default: `false`) When destroying a resource, if only NS records remain and this is set to `false`, the zone will be deleted. Please note, each zone not deleted will [cost you money](https://www.scaleway.com/en/dns/)
+- `keep_empty_zone` - (Optional, default: `true`) When destroying a resource, if only NS records remain and this is set to `false`, the zone will be deleted. Please note, each zone not deleted will [cost you money](https://www.scaleway.com/en/dns/)
 
 - `name` - (Optional) The name of the record (can be an empty string for a root record).
 

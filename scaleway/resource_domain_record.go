@@ -41,7 +41,7 @@ func resourceScalewayDomainRecord() *schema.Resource {
 				Type:        schema.TypeBool,
 				Description: "When destroy a resource record, if a zone have only NS, delete the zone",
 				Optional:    true,
-				Default:     false,
+				Default:     true,
 			},
 			"root_zone": {
 				Type:        schema.TypeBool,
